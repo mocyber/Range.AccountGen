@@ -15,7 +15,7 @@ namespace Range.AccountGen
         [Option('c', "containerPath", Required =true, HelpText ="The Path of the OU to create in.")]
         public string ContainerPath { get; set; }
 
-        [Option('n', "number", Required = true, HelpText = "Number of accounts to generatee")]
+        [Option('n', "number", Required = true, HelpText = "Number of accounts to generate")]
         public int NumberToCreate { get; set; }
 
         [Option('p', "password", Required =true, HelpText ="Password to set for user accounts generated.")]
