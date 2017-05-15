@@ -1,4 +1,6 @@
-﻿# Range.AccountGen (Range AD Account Generation Utility)
+[![Build status](https://ci.appveyor.com/api/projects/status/7ye060cxv3fyap9b/branch/master?svg=true)](https://ci.appveyor.com/project/theturingnerd/range-accountgen/branch/master)
+
+# Range.AccountGen (Range AD Account Generation Utility)
 
 This tool allows us to generate pseudo-random Active Directory users for the enclave. The tool randomly selects a first and last name, and assigns some other property metadata to the ad objects.
 
